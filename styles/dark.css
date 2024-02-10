@@ -22,7 +22,7 @@
   --visibility: visible;
 }
   
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
   --bg-color: #000028;
   --logo-color: #db00ff;
@@ -34,5 +34,5 @@
   --bg-image: url(../images/cover-image-dark.png);
   --visibility: visible;
   }
-}
+} */
 

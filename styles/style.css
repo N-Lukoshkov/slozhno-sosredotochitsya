@@ -6,13 +6,11 @@ html {
   position: relative;
   display: grid;
   grid-template-rows: repeat(6, auto);
-  margin: auto;
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, sans-serif);
   font-size: var(--main-font-size, 18px);
   background-color: var(--bg-color, #000028);
   background-attachment: fixed;
-  min-inline-size: 375px;
   block-size: 100%;
 }
 
@@ -39,7 +37,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-block-start: 65px;
+  margin-block-start: 45px;
   list-style: none;
 }
 
@@ -67,10 +65,6 @@ html {
 
 .content-section {
   gap: 40px;
-  padding: 0 20px;
-}
-
-.header.content-section {
   padding: 0 10px;
 }
 
@@ -87,7 +81,7 @@ html {
   font-size: 116px;
   font-style: normal;
   line-height: 82.5%;
-  text-shadow: 4px 4px 0px var(--accent-color, #FF0070); 
+  text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
 }
 
 .header__text {
@@ -213,7 +207,7 @@ html {
 }
 
 .section {
-  margin-block-end: 64px;
+  margin-block-end: 50px;
 }
 
 .section.advices {
@@ -243,7 +237,7 @@ html {
   gap: 6px;
 }
 
-@media screen and (768px <= width){
+@media screen and (768px <= width) {
   .pictures__block {
     display: block;
     width: 100%;
@@ -313,7 +307,7 @@ html {
     grid-column: 2;
   }
 
-  .section.causes .content__text-block{
+  .section.causes .content__text-block {
     grid-column: 1 / span 2;
   }
   
@@ -334,6 +328,12 @@ html {
   .header__theme-menu {
     margin-inline-end: 10px;
     margin-block-start: 8px;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    margin-inline-end: 0px;
+    margin-block-end: -5px;
   }
 
   .header__rec {
@@ -361,8 +361,12 @@ html {
     justify-content: center;
   }
 
-  .content-section {
+  .content.content-section {
     padding: 0 20px;
+  }
+
+  .section {
+    margin-block-end: 64px;
   }
 
   .footer__title,
@@ -371,7 +375,7 @@ html {
   }
 }
 
-@media screen and (1024px <= width){
+@media screen and (1024px <= width) {
   .header__text {
     max-width: 491px;
   }
@@ -380,6 +384,7 @@ html {
     justify-self: center;
     align-self: flex-start;
     margin-block-start: 0;
+    margin-inline-start: 40px;
   }
 
   .header__theme-menu-list {

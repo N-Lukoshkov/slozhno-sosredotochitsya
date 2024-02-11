@@ -135,8 +135,8 @@ html {
   block-size: 10px;
 }
 
-.header::before,
-.footer::before {
+.decorated-zone::before,
+.decorated-zone::before {
   content: '';
   position: absolute;
   top: 10px;
@@ -147,8 +147,8 @@ html {
   border-right: 1px solid var(--accent-color, #ff0070);
 }
 
-.header::after,
-.footer::after {
+.decorated-zone::after,
+.decorated-zone::after {
   content: '';
   position: absolute;
   bottom: 10px;
@@ -162,6 +162,10 @@ html {
 .content__text-block {
   gap: 0px;
   font-size: var(--main-font-size, 18px);
+}
+
+.content {
+  line-height: 23.5px;
 }
 
 .content__text-block .content:not(:last-of-type) {

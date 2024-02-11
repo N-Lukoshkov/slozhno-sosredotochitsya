@@ -1,4 +1,7 @@
 .page.theme_light {
+  --main-font: 'IBM PLex Mono';
+  --main-font-size: 18px;
+  --logo-font-size: 120px;
   --bg-color: #fff1f7;
   --logo-color: #ffc2e6;
   --text-color: #353430;
@@ -10,7 +13,7 @@
   --visibility: hidden;
 }
 
-:root .theme_light {
+/* :root .theme_light {
   --bg-color: #fff1f7;
   --logo-color: #ffc2e6;
   --text-color: #353430;
@@ -20,10 +23,13 @@
   --button-border-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
   --visibility: hidden;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
+    --main-font: 'IBM PLex Mono';
+    --main-font-size: 18px;
+    --logo-font-size: 120px;
     --bg-color: #fff1f7;
     --logo-color: #ffc2e6;
     --text-color: #353430;

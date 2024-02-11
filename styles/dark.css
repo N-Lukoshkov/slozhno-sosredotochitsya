@@ -1,4 +1,4 @@
-.page .theme_dark {
+/* .page .theme_dark {
   --bg-color: #000028;
   --logo-color: #db00ff;
   --text-color: #f1b2ce;
@@ -8,7 +8,7 @@
   --button-border-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
   --visibility: visible;
-}
+} */
 
 :root .theme_dark {
   --bg-color: #000028;
@@ -22,7 +22,7 @@
   --visibility: visible;
 }
   
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
   --bg-color: #000028;
   --logo-color: #db00ff;
@@ -34,5 +34,5 @@
   --bg-image: url(../images/cover-image-dark.png);
   --visibility: visible;
   }
-} */
+}
 

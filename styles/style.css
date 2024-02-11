@@ -99,6 +99,10 @@ html {
   font-size: var(--main-font-size, 18px);
 }
 
+h2.heading {
+  color: var(--h2heading-color, #353430);
+}
+
 .accent__title {
   margin-block-start: 18px;
   color: var(--title-color, #353430);

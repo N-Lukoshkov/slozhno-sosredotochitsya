@@ -21,7 +21,7 @@
   --bg-image: url(../images/cover-image-dark.png);
   --visibility: visible;
 }
-  
+
 /* @media (prefers-color-scheme: dark) {
   :root {
   --bg-color: #000028;

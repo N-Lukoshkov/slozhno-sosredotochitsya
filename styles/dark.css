@@ -12,3 +12,20 @@
   --bg-image: url(../images/cover-image-dark.png);
   --visibility: visible;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font: 'IBM PLex Mono';
+    --main-font-size: 18px;
+    --logo-font-size: 120px;
+    --bg-color: #fff1f7;
+    --logo-color: #ffc2e6;
+    --text-color: #353430;
+    --title-color: #353430;
+    --accent-color: #ff8dcb;
+    --button-text-color: #353430;
+    --button-border-color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
+    --visibility: hidden;
+  }
+}

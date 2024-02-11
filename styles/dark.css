@@ -1,16 +1,4 @@
-.page .theme_dark {
-  --bg-color: #000028;
-  --logo-color: #db00ff;
-  --text-color: #f1b2ce;
-  --title-color: #000028;
-  --accent-color: #ff0070;
-  --button-text-color: #ff0070;
-  --button-border-color: #ff0070;
-  --bg-image: url(../images/cover-image-dark.png);
-  --visibility: visible;
-}
-
-/* :root .theme_dark {
+/* .page .theme_dark {
   --bg-color: #000028;
   --logo-color: #db00ff;
   --text-color: #f1b2ce;
@@ -21,6 +9,18 @@
   --bg-image: url(../images/cover-image-dark.png);
   --visibility: visible;
 } */
+
+:root .theme_dark {
+  --bg-color: #000028;
+  --logo-color: #db00ff;
+  --text-color: #f1b2ce;
+  --title-color: #000028;
+  --accent-color: #ff0070;
+  --button-text-color: #ff0070;
+  --button-border-color: #ff0070;
+  --bg-image: url(../images/cover-image-dark.png);
+  --visibility: visible;
+}
   
 @media (prefers-color-scheme: dark) {
   :root {

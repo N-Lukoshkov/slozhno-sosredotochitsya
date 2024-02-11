@@ -10,7 +10,7 @@
   --visibility: visible;
 } */
 
-:root.theme_dark {
+:root .theme_dark {
   --bg-color: #000028;
   --logo-color: #db00ff;
   --text-color: #f1b2ce;

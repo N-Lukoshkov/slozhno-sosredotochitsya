@@ -8,7 +8,7 @@
   --visibility: hidden;
 } */
 
-:root.theme_light {
+:root .theme_light {
   --bg-color: #fff1f7;
   --logo-color: #ffc2e6;
   --text-color: #353430;

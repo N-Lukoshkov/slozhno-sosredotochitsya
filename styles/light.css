@@ -19,7 +19,7 @@
   --bg-image: url(../images/cover-image-light.png);
   --visibility: hidden;
 }
- 
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;

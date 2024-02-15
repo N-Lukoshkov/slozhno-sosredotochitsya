@@ -1,8 +1,8 @@
 html {
+  margin-inline: auto;
   block-size: 100%;
   max-inline-size: 375px;
   max-inline-size: 1024px;
-  margin-inline: auto;
 }
 
 .page {
@@ -11,10 +11,10 @@ html {
   font-family: var(--main-font, monospace);
   font-size: var(--main-font-size, 18px);
   background-color: var(--bg-color, #fff1f7);
+  background-image: var(--bg-image, url(../images/cover-image-light.png));
   background-position: center;
   background-attachment: fixed;
-  background-image: var(--bg-image, url(../images/cover-image-light.png));
-  block-size: cover;
+  background-size: cover;
 }
 
 .header {
@@ -75,8 +75,8 @@ html {
 .content.content-section, 
 .footer.content-section {
   display: grid;
-  margin-block-start: 40px;
   gap: 50px;
+  margin-block-start: 40px;
 }
 
 .cover__title {
@@ -133,9 +133,9 @@ h2.heading {
   visibility: var(--visibility, hidden);
   color: var(--accent-color, #ff8dcb);
   font-size: var(--main-font-size, 18px);
+  text-transform: uppercase;
   inline-size: 52px;
   block-size: min-content;
-  text-transform: uppercase;
 }
 
 .header__rec::after {
@@ -178,17 +178,13 @@ h2.heading {
 }
 
 .content {
-  line-height: 23.5px;
   margin-block-start: 40px;
+  line-height: 23.5px;
 }
 
 .content-text {
   margin-block-start: 10px;
   margin-block-end: 0px;
-}
-
-.content__text-block:(:last-of-type) {
-  margin-block-end: 100px;
 }
 
 .content__text-block a {
@@ -267,7 +263,7 @@ h2.heading {
   .pictures__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, fit-content);
+    grid-template-rows: repeat(fill-content, 3);
     justify-content: center;
     align-items: start;
     gap: 20px;
@@ -367,8 +363,8 @@ h2.heading {
   }
 
   .content.content-section {
-    padding: 0 20px;
     gap: 64px;
+    padding: 0 20px;
   }
 
   .footer__title,
@@ -385,8 +381,8 @@ h2.heading {
   }
 
   .causes__paragraph {
-    grid-row: 2;
     grid-column: span 2;
+    grid-row: 2;
   }
 }
 
@@ -398,8 +394,8 @@ h2.heading {
   .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
-    margin-block-start: 0px;
     margin-inline-start: 40px;
+    margin-block-start: 0px;
   }
 
   .header__theme-menu-list {
@@ -410,15 +406,15 @@ h2.heading {
 
   .section.causes {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .causes__paragraph {
     display: grid;
     grid-template-columns: repeat(auto-fill, 315px);
-    max-width: 1024px;
     column-gap: 21px;
+    max-width: 1024px;
 
   }
 
